@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { CounterApp } from './CounterApp'
 import { FirstApp } from './FirstApp'
 import { HelloWorldApp } from './HelloWorldApp'
+import { NuevoComponente } from './NuevoComponente'
 import './styles.css'
 
 
@@ -11,5 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         {/* <HelloWorldApp/>
         <FirstApp title="Hola, soy Goku" subTitle="con subtitulo"/> */}
         <CounterApp value={5}/>
+        <NuevoComponente mensaje={"Saludos desde nuevo componente"}/>
     </React.StrictMode>
 )
